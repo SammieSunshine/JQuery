@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>challenge 309</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="inner">
+                <p id="1">It's a beautiful day in this neighborhood</p>
+                <p id="2"> A beautiful day for a neighbor</p>
+                <p id="3">Could you be mine?</p>
+                <p id="4">Click here</p>
+            </div>
+        </div>
+        <script>
+            //part 1: Event example
+            $(document).ready(function(){
+                $("4").click(function(){
+                    alert("Won't you be my neighbor")
+                });
+                //part 2: effect example
+                $("4").fadeIn(750)
+            });
+
+
+        </script>
+    </body>
+</html>
